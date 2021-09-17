@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Controllers\Mantenimiento\" />
+    <Folder Include="Controllers\Logistica\" />
+    <Folder Include="Controllers\Compras\" />
+    <Folder Include="Controllers\Comercial\" />
+    <Folder Include="Controllers\Contabilidad\" />
+    <Folder Include="Controllers\Finanzas\" />
+    <Folder Include="Controllers\RecursosHumanos\" />
+    <Folder Include="Models\Comercial\" />
+    <Folder Include="Models\Compras\" />
+    <Folder Include="Models\Contabilidad\" />
+    <Folder Include="Models\Finanzas\" />
+    <Folder Include="Models\Mantenimiento\" />
+    <Folder Include="Models\Logistica\" />
+    <Folder Include="Models\RecursosHumanos\" />
+    <Folder Include="Views\Comercial\" />
+    <Folder Include="Views\Compras\" />
+    <Folder Include="Views\Contabilidad\" />
+    <Folder Include="Views\Finanzas\" />
+    <Folder Include="Views\Mantenimiento\" />
+    <Folder Include="Views\Logistica\" />
+    <Folder Include="Views\RecursosHumanos\" />
+  </ItemGroup>
+
+</Project>
