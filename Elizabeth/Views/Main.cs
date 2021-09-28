@@ -14,5 +14,12 @@ namespace Elizabeth.Views
         {
             InitializeComponent();
         }
+
+        private void btnComercial_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Comercial.Main comercial = new Comercial.Main();
+            comercial.Show();
+        }
     }
 }

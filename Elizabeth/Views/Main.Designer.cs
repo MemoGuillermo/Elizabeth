@@ -29,12 +29,33 @@ namespace Elizabeth.Views
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.btnComercial = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // btnComercial
+            // 
+            this.btnComercial.Location = new System.Drawing.Point(441, 78);
+            this.btnComercial.Name = "btnComercial";
+            this.btnComercial.Size = new System.Drawing.Size(75, 23);
+            this.btnComercial.TabIndex = 0;
+            this.btnComercial.Text = "Comercial";
+            this.btnComercial.UseVisualStyleBackColor = true;
+            this.btnComercial.Click += new System.EventHandler(this.btnComercial_Click);
+            // 
+            // Main
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnComercial);
+            this.Name = "Main";
             this.Text = "Main";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
+
+        private System.Windows.Forms.Button btnComercial;
     }
 }

@@ -14,5 +14,14 @@ namespace Elizabeth.Views
         {
             InitializeComponent();
         }
+
+        private void btnIngresar_Click(object sender, EventArgs e)
+        {
+            if (txtUsuario.Text.Trim() == "admin" && txtContrasena.Text.Trim() == "admin"){
+                this.Hide();
+                Main main = new Main();
+                main.Show();
+            }
+        }
     }
 }
