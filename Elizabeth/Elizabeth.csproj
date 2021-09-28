@@ -21,12 +21,6 @@
     <Folder Include="Models\Mantenimiento\" />
     <Folder Include="Models\Logistica\" />
     <Folder Include="Models\RecursosHumanos\" />
-    <Folder Include="Views\Compras\" />
-    <Folder Include="Views\Contabilidad\" />
-    <Folder Include="Views\Finanzas\" />
-    <Folder Include="Views\Mantenimiento\" />
-    <Folder Include="Views\Logistica\" />
-    <Folder Include="Views\RecursosHumanos\" />
   </ItemGroup>
 
   <ItemGroup>

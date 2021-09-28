@@ -4,10 +4,28 @@
     <Compile Update="Views\Comercial\Main.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Views\Compras\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Contabilidad\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Finanzas\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Views\Login.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Views\Logistica\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Views\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\Mantenimiento\Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Views\RecursosHumanos\Main.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
